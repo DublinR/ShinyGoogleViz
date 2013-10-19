@@ -1,0 +1,42 @@
+\documentclass[]{article}
+\usepackage{amsmath}
+\usepackage{framed}
+
+%opening
+\title{Shiny}
+\author{Dublin \texttt{R}}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction to Shiny}
+
+\subsection{Introducing Shiny}
+\textbf{Shiny} is a new package from \textit{RStudio} that makes it incredibly easy to build interactive web applications with \textit{R}.
+
+% For an introduction and live examples, visit the Shiny homepage.
+
+\subsection{Features of Shiny}
+\begin{itemize}
+\item Build useful web applications with only a few lines of code—no JavaScript required.
+\item \textbf{Shiny} applications are automatically “live” in the same way that spreadsheets are live. Outputs change instantly as users modify inputs, without requiring a reload of the browser.
+\item \textbf{Shiny} user interfaces can be built entirely using R, or can be written directly in HTML, CSS, and JavaScript for more flexibility.
+\item Works in any R environment (Console R, Rgui for Windows or Mac, ESS, StatET, RStudio, etc.)
+Attractive default UI theme based on Twitter Bootstrap.
+\item A highly customizable slider widget with built-in support for animation.
+Pre-built output widgets for displaying plots, tables, and printed output of \texttt{R} objects.
+\item Fast bidirectional communication between the web browser and R using the websockets package.
+\item Uses a reactive programming model that eliminates messy event handling code, so you can focus on the code that really matters.
+\item Develop and redistribute your own \textbf{Shiny} widgets that other developers can easily drop into their own applications (coming soon!).
+\end{itemize}
+\subsection{Installation}
+Shiny is available on CRAN, so you can install it in the usual way from your R console:
+\begin{framed}
+\begin{verbatim}
+install.packages("shiny")
+\end{verbatim}
+\end{framed}
+
+
+\end{document}
