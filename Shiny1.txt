@@ -46,4 +46,6 @@ http://www.premiersoccerstats.com/wordpress/?p=1273
 
 http://glimmer.rstudio.com/systematicin/retirement.withdrawal/
 
+http://glimmer.rstudio.com/jcheng/diamonds/
+
 %--------------------------------------------------------------%
