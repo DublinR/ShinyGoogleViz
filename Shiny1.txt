@@ -21,3 +21,29 @@ you’re just minutes away from combining the statistical power of R with the
 simplicity of a web page.
 \end{frame}
 -------------------------------------------------------------------------
+
+Shiny
+
+%--------------------------------------------------------------%
+
+Fully customizable and extensible with HTML/CSS/JAvascript
+
+%--------------------------------------------------------------%
+server.R
+Specifies the logic behind the user interface
+call shinServer, apssing a function wiht the parameters (input,output,session)
+Define outputs usings
+output$id <- renderType({})
+Define reusbake reactive expressions
+
+Access reactive experssions and inpputs
+
+http://glimmer.rstudio.com/pssguy/TVShowRatings/
+
+https://gist.github.com/pssguy/5498431
+
+http://www.premiersoccerstats.com/wordpress/?p=1273
+
+http://glimmer.rstudio.com/systematicin/retirement.withdrawal/
+
+%--------------------------------------------------------------%
