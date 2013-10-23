@@ -1,0 +1,12 @@
+% http://trestletechnology.net/wp-content/uploads/2013/02/shiny_introduction.pdf
+
+%---------------------------------------------------%
+
+a <- 3
+b <- a + 2 
+a <- 7 
+b == ?
+
+%---------------------------------------------------%
+Imperative: b = 5 
+Reactive: b = 9
