@@ -6,3 +6,9 @@ panels
 
 
 -sliderInput
+
+
+
+radioButtons
+checkboxInput
+
