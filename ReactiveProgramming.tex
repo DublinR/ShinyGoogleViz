@@ -1,18 +1,5 @@
 % http://trestletechnology.net/wp-content/uploads/2013/02/shiny_introduction.pdf
 
-%---------------------------------------------------%
-
-a <- 3
-b <- a + 2 
-a <- 7 
-b == ?
-
-Imperative: b = 5 
-Reactive: b = 9
-
-%---------------------------------------------------%
-
-
 %----------------------------------------------------------------------------%
 \begin{frame}
 \frametitle{Reactive Programming}
@@ -22,4 +9,18 @@ Reactive: b = 9
 \item Whenever the value of the other cells change, the value of the formula is automatically updated.
 \end{frame}
 %----------------------------------------------------------------------------%
+
+
+%---------------------------------------------------%
+\begin{frame}[fragile]
+\begin{verbatim}
+a <- 3
+b <- a + 2 
+a <- 7 
+b == ?
+\end{verbatim}
+Imperative: b = 5 
+Reactive: b = 9
+\end{frame}
+%---------------------------------------------------%
 
