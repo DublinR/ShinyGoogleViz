@@ -1,5 +1,5 @@
 Outline
-
+==============================
 Introduction
 Motivation
 Google Chart Tools
@@ -13,7 +13,8 @@ googleVis package
 - Creating interactive presentations with googleVis
  -Session in groups with laptops to work through examples
  
- 
+<pre><code> 
  #Motion chart example
 suppressPackageStartupMessages(library(googleVis))
 plot(gvisMotionChart(Fruits, "Fruit", "Year", options = list(width = 600, height = 400)))
+</code></pre>
